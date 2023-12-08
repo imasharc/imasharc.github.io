@@ -1,7 +1,7 @@
 ﻿body {
     font-family: 'Courier New', monospace;
     background: #0F0A3C; /* Dark Blue */
-    font-size: 16px;
+    font-size: 24px;
     color: #2AFFDF; /* Bright Teal */
     margin: 0;
     padding: 0;
@@ -19,7 +19,8 @@ header, footer {
 }
 
 a {
-    color: #FFA500; /* Neon Green */
+    color: #FFA500;
+    font-size: 24px;
 }
 
 a:hover {
@@ -37,6 +38,13 @@ a.active {
 }
 input[type="checkbox"]:checked ~ .description {
     display: block;
+    
+}
+h1, h2, p {
+    font-size: 24px;
+}
+label {
+    font-size: 20px;
 }
 .toggle {
     position: absolute;
@@ -51,4 +59,45 @@ input[type="checkbox"]:checked ~ .description {
 }
 .toggle:not(:checked) ~ .description {
     display: none;
+}
+img {
+    width: 50%;
+    height: auto;
+}
+
+@media only screen and (max-width: 600px) {
+    a {
+        color: #FFA500;
+        font-size: 20px;
+    }
+    h1, h2, p {
+        font-size: 22px;
+    }
+    label {
+        font-size: 20px;
+    }
+    img {
+        width: 80%;
+        height: auto;
+    }
+}
+
+@media only screen and (max-width: 400px) {
+    a {
+        color: #FFA500;
+        font-size: 16px;
+    }
+    h1, h2, p {
+        font-size: 16px;
+    }
+    label {
+        font-size: 14px;
+    }
+    body {
+        font-size: 14px;
+    }
+    img {
+        width: 80%;
+        height: auto;
+    }
 }
