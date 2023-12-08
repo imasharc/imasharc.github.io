@@ -1,0 +1,54 @@
+﻿body {
+    font-family: 'Courier New', monospace;
+    background: #0F0A3C; /* Dark Blue */
+    font-size: 16px;
+    color: #2AFFDF; /* Bright Teal */
+    margin: 0;
+    padding: 0;
+}
+
+header, footer {
+    background: #000080; /* Neon Purple */
+    padding: 10px 0;
+    text-align: center;
+}
+.container {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px 0;
+}
+
+a {
+    color: #FFA500; /* Neon Green */
+}
+
+a:hover {
+    background-color: #FD3A69; /* Neon Pink */
+}
+
+a.active {
+    color: #00FF00; /* Neon Pink */
+}
+.description {
+    display: none;
+    
+    background: linear-gradient(to bottom, #0F0A3C 20%, #03A9F4 80%);
+    padding: 10px;
+}
+input[type="checkbox"]:checked ~ .description {
+    display: block;
+}
+.toggle {
+    position: absolute;
+    left: -9999px;
+}
+.toggle + label {
+    cursor: pointer;
+    transition: color 0.3s ease;
+}
+.toggle + label:hover {
+    color: #FFFF00;
+}
+.toggle:not(:checked) ~ .description {
+    display: none;
+}
