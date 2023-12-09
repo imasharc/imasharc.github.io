@@ -33,18 +33,33 @@ a.active {
 .description {
     display: none;
     
-    background: linear-gradient(to bottom, #0F0A3C 20%, #03A9F4 80%);
+    background: linear-gradient(to bottom, #0F0A3C 0%, #03A9F4 50%);
     padding: 10px;
 }
 input[type="checkbox"]:checked ~ .description {
     display: block;
     
 }
-h1, h2, p {
+h1 {
+    font-size: 30px;
+
+}
+h2 {
     font-size: 24px;
 }
+p {
+    font-size: 24px;    
+}
+li {
+    color: cadetblue;
+
+}
+.description li {
+    color: black;
+
+}
 label {
-    font-size: 20px;
+    font-size: 24px;
 }
 .toggle {
     position: absolute;
@@ -63,6 +78,16 @@ label {
 img {
     width: 50%;
     height: auto;
+}
+.no-bullets {
+    list-style-type: none;
+}
+.article-title {
+    text-align: center;
+    margin-bottom: 20px;
+}
+.writing {
+    color: lightslategray;
 }
 
 @media only screen and (max-width: 600px) {
