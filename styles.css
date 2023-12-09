@@ -20,7 +20,7 @@ header, footer {
 
 a {
     color: #FFA500;
-    font-size: 24px;
+    font-size: 20px;
 }
 
 a:hover {
@@ -48,18 +48,18 @@ h2 {
     font-size: 24px;
 }
 p {
-    font-size: 24px;    
+    font-size: 20px;    
 }
 li {
     color: cadetblue;
-
+    font-size: 20px;    
 }
 .description li {
     color: black;
 
 }
 label {
-    font-size: 24px;
+    font-size: 20px;
 }
 .toggle {
     position: absolute;
@@ -88,6 +88,10 @@ img {
 }
 .writing {
     color: lightslategray;
+}
+.shark-gif {
+    width: 10%;
+    height: auto;
 }
 
 @media only screen and (max-width: 600px) {
