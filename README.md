@@ -2,6 +2,8 @@
 
 [My Personal Website](https://imasharc.github.io/)
 
+![image](https://github.com/imasharc/imasharc.github.io/assets/60002742/51a93d44-63a8-4b03-9f76-cc40c422b93a)
+
 This repository contains the source code for my personal website.
 In order to make the website load fast and take minimum space it is built using HTML, CSS, and JavaScript.
 No framework. No external library. No overhead.
